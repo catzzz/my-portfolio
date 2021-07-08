@@ -4,7 +4,7 @@ import styles from './sidebar.module.scss'
 
 const Sidebar = ({sideBarIsClose, toggleMenu}) => {
 return (
-    <nav  className={sideBarIsClose && styles.close} onClick={toggleMenu} >
+    <nav  className={sideBarIsClose ? styles.close : ''} onClick={toggleMenu} >
         <div className={styles.container}>
             <div className={styles.iconWrapper}>
                 <FaTimes/> 

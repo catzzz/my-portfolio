@@ -1,11 +1,13 @@
 import Head from 'next/head'
-import Sidebar from '../components/sidebar/Sidebar'
-import Navbar from '../components/navbar/Navbar';
+import Sidebar from '@/components/sidebar/Sidebar'
+import Navbar from '@/components/navbar/Navbar';
+import HeroSection from '@/components/hero/Hero';
+
 import { useState } from "react";
 
 export default function HomePage({title,description,keywords}) {
 
-  const[sideBarIsClose, setSideBarIsClose] = useState(false)
+  const[sideBarIsClose, setSideBarIsClose] = useState(true)
 
   const toggleMenu = () => {
     console.log('toogle menu')
@@ -24,6 +26,7 @@ export default function HomePage({title,description,keywords}) {
       <Sidebar sideBarIsClose = {sideBarIsClose} toggleMenu= {toggleMenu}/>
       <Navbar toggleMenu= {toggleMenu}/>
       {/* Page start */}
+      <HeroSection />
     </div>
     </>
   

@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Sidebar from '../components/sidebar/Sidebar'
+import Navbar from '../components/navbar/Navbar';
 import { useState } from "react";
 
 export default function HomePage({title,description,keywords}) {
@@ -21,6 +22,7 @@ export default function HomePage({title,description,keywords}) {
     <div>
       {/* Navbar  */}
       <Sidebar sideBarIsClose = {sideBarIsClose} toggleMenu= {toggleMenu}/>
+      <Navbar toggleMenu= {toggleMenu}/>
       {/* Page start */}
     </div>
     </>

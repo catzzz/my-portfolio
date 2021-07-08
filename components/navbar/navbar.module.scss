@@ -1,0 +1,94 @@
+.navbar {
+    width: 100%;
+    height: 8rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: var(--color-secondary);
+    display: flex;
+    z-index: 10;
+    align-items: center;
+    .navContainer {
+        max-width: 117rem;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logoWrapper {
+        a {
+            text-decoration: none;
+            cursor: pointer;
+            font-size: 2.4rem;
+            font-weight: 600;
+            letter-spacing: 0.5rem;
+            color: var(--color-grey-light-1);
+
+            padding: 1.2rem 3rem;
+
+            span {
+                color: var(--color-primary);
+            }
+        }
+    }
+
+    .iconBox{
+        display: none;
+
+        &:hover{
+            color: var(--color-primary);
+        }
+      
+      
+        @media screen and (max-width: 768px) {
+          display: block;
+          position: absolute;
+          top: 0;
+          right: 0;
+          transform: translate(-100%, 60%);
+          font-size: 2.9rem;
+          cursor: pointer;
+          color: #fff;
+        }
+    
+    }
+
+    ul{
+        display: flex;
+        list-style: none;
+        li{
+            padding: 0.8rem .8rem;
+            margin:1rem 1rem;
+            &.active {
+                border-bottom: 3px solid var(--color-primary);
+            }
+
+            a{
+                &:link,
+                &:visited{
+                    color: var(--color-grey-light-1);
+                    text-decoration: none;
+                    font-size: 1.8rem;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    /* padding: rem 2rem; */
+                    margin: 0 1rem;
+                    transition:  all .3s ease;
+    
+                } 
+    
+                &:hover{
+                    color:var(--color-primary);
+                }
+            }
+
+            
+        }
+        @media screen and (max-width:768px) {
+            display: none;
+        }
+    }
+
+}

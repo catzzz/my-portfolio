@@ -1,0 +1,29 @@
+.container{
+    max-width: 117rem;
+    width: 100%;
+    height: auto;
+    /* border:1px solid red; */
+    display:flex;
+    flex-direction: column;
+    margin:1rem auto;
+    background-color: var(--color-grey-dark-1);
+    color:var(--color-grey-light-1);
+    border-radius: 1rem;
+
+    h2{
+        font-size: 3.6rem;
+        align-self: center;
+        margin: 2rem 0;
+    }
+    .content{
+
+        display: flex;
+
+        @media screen and (max-width:768px){
+            flex-direction: column;
+            
+        }
+
+    }
+  
+}

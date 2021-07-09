@@ -1,4 +1,4 @@
-// import Skills from '../skills'
+import Skills from '../skills/Skills'
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from './about.module.scss'
@@ -25,7 +25,7 @@ const AboutSection = () => {
                 </div>
                 
             </div>
-            {/* <Skills /> */}
+            <Skills />
             
             
         </section>

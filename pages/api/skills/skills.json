@@ -1,0 +1,47 @@
+{
+    "skills": [
+        {
+            "id": "1",
+            "title": "Langugaes",
+            "technologies": [
+                "javascript",
+                "html",
+                "python",
+                "swift",
+                "Obj-C",
+                "C"
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Front-End",
+            "technologies": [
+                "react",
+                "next.js",
+                "css",
+                "sass"
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Back-End",
+            "technologies": [
+                "postgresql",
+                "mongodb",
+                "node.js",
+                "django"
+            ]
+        },
+        {
+            "id": "4",
+            "title": "Tools",
+            "technologies": [
+                "xcode",
+                "keil-c",
+                "juypter",
+                "vscode",
+                "docker"
+            ]
+        }
+    ]
+}

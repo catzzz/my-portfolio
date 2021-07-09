@@ -1,0 +1,18 @@
+.container{
+    flex-direction: column;
+    border:1px solid red;
+    font-size: inherit;
+    color:inherit;
+    align-items: center;
+    margin: .5rem;
+    padding: .5rem;
+
+    p{
+        justify-content: center;
+        font-size: 1.2rem;
+        color:inherit;
+        margin-top: 1rem;
+        text-transform: uppercase;
+    }
+    
+}

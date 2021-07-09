@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Sidebar from '@/components/sidebar/Sidebar'
 import Navbar from '@/components/navbar/Navbar';
 import HeroSection from '@/components/hero/Hero';
-
+import AboutSection from '@/components/about/About';
 import { useState } from "react";
 
 export default function HomePage({title,description,keywords}) {
@@ -27,6 +27,7 @@ export default function HomePage({title,description,keywords}) {
       <Navbar toggleMenu= {toggleMenu}/>
       {/* Page start */}
       <HeroSection />
+      <AboutSection />
     </div>
     </>
   

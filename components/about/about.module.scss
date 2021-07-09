@@ -1,0 +1,100 @@
+.about {
+    width: 100%;
+    height: calc(100vh - 8rem);
+    border: 1px solid red;
+    /* background-color: red; */
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+
+    .container {
+        max-width: 117rem;
+        margin: 0 auto;
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .imageBox {
+        /* flex: 0 0 40%; */
+        max-width: 40%;
+        min-width: 25rem;
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        margin: 3rem;
+        @media screen and (max-width: 768px) {
+            min-width: 20rem;
+        }
+        figure {
+            background-color: var(--color-grey-dark-3);
+            border-radius: 1rem;
+            overflow: hidden;
+        }
+    }
+
+    .textContainer {
+
+        max-height: 25rem;
+        height: 100%;
+        text-align: justify;
+        margin: 3rem 3rem;
+
+        h2 {
+            font-size: 3.6rem;
+            line-height: 4rem;
+        }
+        p{
+            font-size: 1.6rem;
+            margin-top: 1.5rem;
+            line-height: 2rem;
+        }
+        @media screen and (max-width:768px){
+            /* flex-direction: column; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .linkBtn {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: flex-start;
+        a{
+        
+            &:link,
+            &:visited{
+                text-transform:uppercase;
+                text-decoration:none;
+                padding: 1.5rem 4rem;
+                display: inline-block;
+                border-radius: 10rem;
+                cursor: pointer;
+                font-size: 1.8rem;
+                color: var(--color-grey-light-1);
+                background-color: var(--color-grey-dark-1);
+                
+    
+            }
+            &:hover,
+            &:focus {
+                outline: none;
+                transform: translateY(-3px);
+                box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.6);
+            }
+    
+            &:active {
+                transform: translateY(-1px);
+                box-shadow: 0 0.5rem 0.1rem rgba(0, 0, 0, 0.6);
+            }
+        }
+    }
+}

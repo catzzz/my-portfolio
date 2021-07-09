@@ -14,11 +14,11 @@ const Skills = ({skills}) => {
               
                <div className={styles.content}>  
         
-                    {/* {skills.map((item,index)=>{
+                    {skills.map((item,index)=>{
                         return (
-                            <SkillsList title={item.title} technologies = {item.technologies} key={uuid()}/>
+                            <SkillsList title={item.title} technologies = {item.technologies} key={item.id}/>
                         )
-                    })} */}
+                    })}
 
                 </div>
            </div>
@@ -29,12 +29,3 @@ const Skills = ({skills}) => {
 export default Skills
 
 
-export async function getStaticProps(){
-  const res = await fetch(`${API_URL}/api/skills`)
-  const skills = await res.json()
-   console.log(`skills : ${skills} ---`)
- 
-  return {
-    props:{skills},
-  }
-}

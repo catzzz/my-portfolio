@@ -14,6 +14,8 @@ const SkillItem = ({name='javascript', showName=true}) => {
             {name === 'html' && <FaHtml5 /> }
             {name === 'swift' && <FaSwift /> }
             {name === 'python' && <FaPython /> }
+            {name==='objective-c' && <span>Obj-C</span> }
+            {name==='c' && <span>C</span> }
             {/* front end */}
             {name ==='next.js' && <SiNextDotJs /> }
             {name==='react' && <FaReact /> }
@@ -29,6 +31,7 @@ const SkillItem = ({name='javascript', showName=true}) => {
             {name==='docker' && <SiDocker /> }
             {name==='xcode' && <SiXcode /> }
             {name==='juypter' && <IoMdAnalytics /> }
+            {name==='armkeil' && <span>KEIL</span> }
             {showName && <p>{name}</p>}
         </div>
     )

@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import styles from './about.module.scss'
 
-const AboutSection = () => {
+const AboutSection = ({skills}) => {
     return (
         <section id='about' className={styles.about}>
             <div className={styles.container}>
@@ -25,7 +25,7 @@ const AboutSection = () => {
                 </div>
                 
             </div>
-            <Skills />
+            <Skills skills={skills}/>
             
             
         </section>

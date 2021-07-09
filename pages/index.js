@@ -8,19 +8,14 @@ import { useState } from "react";
 import { API_URL } from '@/config/index';
 
 export default function HomePage({skills, projects}) {
-  console.log(skills,projects)
-  const[sideBarIsClose, setSideBarIsClose] = useState(true)
+  
 
-  const toggleMenu = () => {
-    console.log('toogle menu')
-    setSideBarIsClose(!sideBarIsClose)
-  }
 
   return (
 
     <Layout>
       <HeroSection />
-      <AboutSection />
+      <AboutSection skills={skills}/>
     </Layout>
 
   

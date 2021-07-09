@@ -8,8 +8,8 @@
                 "html",
                 "python",
                 "swift",
-                "Obj-C",
-                "C"
+                "objective-c",
+                "c"
             ]
         },
         {
@@ -37,7 +37,7 @@
             "title": "Tools",
             "technologies": [
                 "xcode",
-                "keil-c",
+                "armkeil",
                 "juypter",
                 "vscode",
                 "docker"

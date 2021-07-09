@@ -25,7 +25,7 @@ export default function Layout({title, keywords, description, children}) {
             <div>
             {children}
             </div>
-            <Footer />
+            {/* <Footer /> */}
            
         </div>
     )

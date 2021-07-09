@@ -5,10 +5,14 @@
     /* border:1px solid red; */
     display:flex;
     flex-direction: column;
-    margin:1rem auto;
+    margin:5rem auto;
     background-color: var(--color-grey-dark-1);
     color:var(--color-grey-light-1);
     border-radius: 1rem;
+    @media screen and (max-width:768px){
+        height: auto;
+
+    }
 
     h2{
         font-size: 3.6rem;
@@ -18,10 +22,13 @@
     .content{
 
         display: flex;
+        position: relative;
+        width: 100%;
 
+        // border: 1px solid orange;
         @media screen and (max-width:768px){
             flex-direction: column;
-            
+   
         }
 
     }

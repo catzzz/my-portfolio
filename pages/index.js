@@ -6,7 +6,7 @@ import HeroSection from '@/components/hero/Hero';
 import AboutSection from '@/components/about/About';
 import { useState } from "react";
 import { API_URL } from '@/config/index';
-
+import PortfolioSection from '@/components/portfolio/Portfolio';
 export default function HomePage({skills, projects}) {
   
 
@@ -16,6 +16,7 @@ export default function HomePage({skills, projects}) {
     <Layout>
       <HeroSection />
       <AboutSection skills={skills}/>
+      <PortfolioSection projects = {projects}/>
     </Layout>
 
   

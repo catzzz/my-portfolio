@@ -6,15 +6,15 @@ const SkillsList = ({title, technologies}) => {
     return (
         <div className={styles.container}>
             <h3>{title}</h3>
-            <div className={styles.technologiesWrapper}>
-                {/* <p>Hello</p>
-                <p>Hello</p>
-                <p>Hello</p> */}
+           
+                <div className={styles.technologiesWrapper}>
+                
                 {technologies.map((name) => (
                     
                     <SkillItem name={name} showName = {true} key={uuid()}/>
                 ))}
-            </div>
+                </div>
+  
             
         </div>
     )

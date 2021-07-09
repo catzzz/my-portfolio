@@ -3,14 +3,16 @@
     display: flex;
     max-width: calc(117rem / 4);
     width: 100%;
-    flex: 0 0 23%;
-    margin: 1rem;
-    justify-content: flex-start;
+  
+    // margin: 1rem;
+    // justify-content:center;
+    
 
     align-items: center;
     flex-direction: column;
     position: relative;
-    // border: 1px solid purple;
+    border: 1px solid purple;
+    justify-content: center;
 
  
     @media screen and (max-width:768px) {
@@ -28,20 +30,18 @@
         text-transform: uppercase;
 
     }
+
     .technologiesWrapper{
         // border: 1px solid green;
         display: grid;
         width: 100%;
         height: 100%;
-        grid-template-columns: repeat(2, 9.9rem);
-        justify-content: center;
+        grid-template-columns: repeat(2, 8rem);
+        justify-content: space-around;
         align-items: flex-start;
         grid-gap: 1.5rem;
-        
-       
-            
-        
-        
+        // border: 1px solid white;
+    
         @media screen and (max-width:768px) {
             display: flex;
             justify-content: space-around;

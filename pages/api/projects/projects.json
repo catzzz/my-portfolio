@@ -3,9 +3,9 @@
         {
             "id": "1",
             "title":"E-commerence",
-            "tags": ["web“ , ”e-commerence"],
+            "tags":  ["web","e-commerence"],
             "image": "/images/project-1.png",
-            "description": "This is an e-commerence web-site",
+            "description": ",This is an e-commerence web-site,This is an e-commerence web-site,This is an e-commerence web-site,This is an e-commerence web-site",
             "skills": ["javascript", "react"],
             "gitUrl":"https: //google.com",
             "webUrl":"https: //google.com"
@@ -14,7 +14,7 @@
         {
             "id": "2",
             "title":"Photo",
-            "tags": ["web“ , ”e-commerence"],
+            "tags": ["web","e-commerence"],
             "image": "/images/project-2.png",
             "description": "This is an e-commerence web-site",
             "skills": ["javascript", "react"],
@@ -24,7 +24,7 @@
         {
             "id": "3",
             "title":"E-commerence",
-            "tags": ["web“ , ”e-commerence"],
+            "tags": ["mobile","e-commerence"],
             "image": "/images/project-3.png",
             "description": "This is an e-commerence web-site",
             "skills": ["javascript", "react"],
@@ -34,9 +34,9 @@
         {
             "id": "4",
             "title":"E-commerence",
-            "tags": ["web“ , ”e-commerence"],
+            "tags": ["web","e-commerence"],
             "image": "/images/project-4.png",
-            "description": "This is an e-commerence web-site",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi dignissim sed diam pharetravitae ipsum odio.",
             "skills": ["javascript", "react"],
             "gitUrl":"https: //google.com",
             "webUrl":"https: //google.com"
@@ -44,9 +44,9 @@
         {
             "id": "5",
             "title":"E-commerence",
-            "tags": ["web“ , ”e-commerence"],
+            "tags": ["mobile","e-commerence"],
             "image": "/images/project-5.png",
-            "description": "This is an e-commerence web-site",
+            "description": "This is an e-commerence web-site.This is an e-commerence web-site.This is an e-commerence web-site.This is an e-commerence web-site",
             "skills": ["javascript", "react"],
             "gitUrl":"https: //google.com",
             "webUrl":"https: //google.com"
@@ -54,7 +54,7 @@
         {
             "id": "6",
             "title":"E-commerence",
-            "tags": ["web“ , ”e-commerence"],
+            "tags": ["web","e-commerence"],
             "image": "/images/project-6.png",
             "description": "This is an e-commerence web-site",
             "skills": ["javascript", "react"],

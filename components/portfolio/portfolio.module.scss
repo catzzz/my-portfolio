@@ -10,6 +10,7 @@
 
     h2{
         font-size: 3.6rem;
+        margin-top: 3rem;
     }
     .filterContainer{
         display: flex;
@@ -18,11 +19,23 @@
         margin: 1.2rem;
     }
 
-    .projectsWrapper{
-        display: flex;
-        flex-wrap: wrap;
-        height: auto;
-        
+    .cardsWrapper{
+        padding: 1rem 3rem;
+        display: grid;
+        width: 100%;
+
+        grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
+        grid-gap:2rem;
+        list-style-type: none;
+       
+
+        @media screen and (max-width:768px) {
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap:2rem;
+        }
+        @media screen and (max-width:600px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
     }
 }
 

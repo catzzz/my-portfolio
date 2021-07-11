@@ -5,7 +5,7 @@ const NotFound = () => {
     return (
         <Layout>
             <section className={styles.container}>
-            <h1>404 </h1>
+            <h1>404</h1>
             <p>Something wrong</p>
             </section>
         </Layout>

@@ -2,7 +2,7 @@ import styles from './skillsList.module.scss'
 import SkillItem from '../skillItem/SkillItem'
 import uuid from 'react-uuid'
 const SkillsList = ({title, technologies}) => {
-    console.log(technologies)
+ 
     return (
         <div className={styles.container}>
             <h3>{title}</h3>

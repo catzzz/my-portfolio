@@ -6,6 +6,9 @@ import { useState } from 'react'
 
 const PortfolioSection = ({projects}) => {
     const [selected , setSelected] = useState('all')
+
+
+
     const filterList = [
         {
           id: "all",
@@ -42,7 +45,8 @@ const PortfolioSection = ({projects}) => {
                     key ={ item.id}/>
                 ))}
             </div>
-            <div className={styles.projectsWrapper}>
+            <div className={styles.cardsWrapper}>
+           
                 {projects.map((project)=>(
                     <ProjectCard 
                         title={project.title} 

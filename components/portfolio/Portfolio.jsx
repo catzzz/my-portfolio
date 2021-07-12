@@ -2,12 +2,67 @@ import styles from './portfolio.module.scss'
 import ProjectCard from '../projectCard/ProjectCard'
 import uuid from 'react-uuid'
 import FilterBtn from '../filterBtn/FilterBtn'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 const PortfolioSection = ({projects}) => {
     const [selected , setSelected] = useState('all')
+    const [data, setData] = useState([]);
+    
+    useEffect(()=>{
+      console.log(selected)
+      switch(selected){
+        case "all" :
+          setData(()=>{
+            // console.log(`tags ${projects.tags}`)
+            return projects;
+          });
+          break;
+        case "web":
+          setData(()=> {
+            const res = projects.filter(project =>{
+              return project.tags.includes('web');
+            })
+            console.log(`web ${res}`)
+            return res;
+          })
+          break;
+        case "mobile":
+          setData(()=> {
+            // const res = 
+            // console.log(`mobile ${res}`)
+            return projects.filter(project =>{
+              return project.tags.includes('mobile');
+            });
+          })
+          break;
 
+        case "font-end":
+            setData(()=> {
+              const res = projects.filter(project =>{
+                return project.tags.includes('front-end');
+              })
+              console.log(`mobile ${res}`)
+              return res;
+            })
+          break;
+          case "back-end":
+            setData(()=> {
+              const res = projects.filter(project =>{
+                return project.tags.includes('back-end');
+              })
+              console.log(`mobile ${res}`)
+              return res;
+            })
+          break;
+        default:
+          setData(()=>{
+            return projects;
+          });
 
+      }
+   
+    },[selected])
+    console.log(data)
 
     const filterList = [
         {
@@ -33,7 +88,7 @@ const PortfolioSection = ({projects}) => {
     
       ];
     return (
-        <section className = {styles.container}>
+        <section className = {styles.container} id="portfolio">
             <h2>Portfolio</h2>
             <div className={styles.filterContainer}>
                 {filterList.map((item,)=>(
@@ -47,7 +102,7 @@ const PortfolioSection = ({projects}) => {
             </div>
             <div className={styles.cardsWrapper}>
            
-                {projects.map((project)=>(
+                {data.map((project)=>(
                     <ProjectCard 
                         title={project.title} 
                         image={project.image}

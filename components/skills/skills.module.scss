@@ -2,10 +2,10 @@
     max-width: 117rem;
     width: 100%;
     height: auto;
-    border:1px solid orange; 
+    // border:1px solid orange; 
     display:flex;
     flex-direction: column;
-    margin:3rem auto;
+    margin:2rem auto;
     background-color: var(--color-grey-dark-1);
     color:var(--color-grey-light-1);
     border-radius: 1rem;
@@ -17,14 +17,14 @@
     h2{
         font-size: 3.6rem;
         align-self: center;
-        margin: 2rem 0;
+        margin: 1rem 0;
     }
     .content{
 
         display: flex;
         position: relative;
         width: 100%;
-        border:1px solid plum;
+        // border:1px solid plum;
         justify-content: space-around;
 
         // border: 1px solid orange;

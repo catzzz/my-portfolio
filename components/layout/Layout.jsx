@@ -25,14 +25,14 @@ export default function Layout({title, keywords, description, children}) {
             <div>
             {children}
             </div>
-            {/* <Footer /> */}
+     
            
         </div>
     )
 }
 
 Layout.defaultProps ={
-    title:'DJ Events | Find the hottest parties',
-    description: 'Find the latest DJ event',
-    keywords:'music, dj , edm'
+    title:'JimmyLeu | Web Portfolio',
+    description: 'Projects for Jimmy Leu',
+    keywords:'fron-end, back-end , web-developer'
 }

@@ -13,7 +13,8 @@
 
     img{
         max-width: 100%;
-        vertical-align: middle;
+        width: 100%;
+        // vertical-align: middle;
         border-top-left-radius: 12px;
         border-top-right-radius: 12px;
         object-fit: cover;
@@ -42,6 +43,7 @@
             font-size: 1.5rem;
             line-height: 1.8rem;
             padding: .3rem 1rem;
+            color:var(--color-grey-dark-2);
         }
         .skillsBox{
             // margin:1rem 0;

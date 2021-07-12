@@ -7,7 +7,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 const HeroSection = () => {
     return (
-        <section id='about' className={styles.about}>
+        <section id='home' className={styles.about}>
             <div className={styles.aboutContainer}>
                 <div className={styles.textContainer}>
                     <h2>Hi There, I'm</h2>
@@ -27,7 +27,7 @@ const HeroSection = () => {
                         </Link>
                         </li>
                         <li>
-                        <Link href="/">
+                        <Link href="mailto: abc@example.com">
                             <a><SiGmail /></a>
                         </Link>
                         </li>

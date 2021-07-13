@@ -17,7 +17,7 @@ export default function Contact() {
           <input type="text" placeholder="Email" />
           <textarea placeholder="Message"></textarea>
           <button type="submit">Send</button>
-          {message && <span>Thanks, I'll reply ASAP :)</span>}
+          {message && <span>Thanks, I&apos;ll reply ASAP :)</span>}
         </form>
       </div>
     </section>

@@ -12,14 +12,15 @@ return (
             <div className={styles.menuWrapper}>
                 <ul className={styles.menu}>
                     <li onClick={toggleMenu}>
+                        <Link href='#hero'><a>Home</a></Link>
+                    </li>
+                    <li onClick={toggleMenu}>
                         <Link href='#about'><a>About me</a></Link>
                     </li>
                     <li onClick={toggleMenu}>
                         <Link href='#portfolio'><a>Portfolio</a></Link>
                     </li>
-                    <li onClick={toggleMenu}>
-                        <Link href='#contact'><a>Contact</a></Link>
-                    </li>
+           
                 </ul>
             </div>
         </div>

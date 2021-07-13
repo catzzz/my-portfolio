@@ -9,6 +9,7 @@
     position: relative;
 
     justify-content: center;
+    padding: 2rem 0;
 
  
     @media screen and (max-width:768px) {
@@ -37,7 +38,7 @@
         align-items: flex-start;
         grid-gap: 1rem;
         font-size: 4.2rem;
-        // border: 1px solid white;
+
     
         @media screen and (max-width:768px) {
             display: flex;

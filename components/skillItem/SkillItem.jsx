@@ -26,6 +26,7 @@ const SkillItem = ({name='javascript', showName=true}) => {
             {name==='mongodb' && <SiMongodb /> }
             {name==='node.js' && <FaNodeJs /> }
             {name==='postgresql' && <SiPostgresql /> }
+            {name==='express' && <span>Express</span> }
             {/* tools */}
             {name==='vscode' && <SiVisualstudio /> }
             {name==='docker' && <SiDocker /> }

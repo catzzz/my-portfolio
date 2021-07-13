@@ -7,8 +7,9 @@ import { API_URL } from '@/config/index';
 import PortfolioSection from '@/components/portfolio/Portfolio';
 import Footer from '@/components/footer/Footer';
 
+
 export default function HomePage({skills, projects}) {
-  
+
 
 
   return (

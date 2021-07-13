@@ -28,8 +28,10 @@
             "technologies": [
                 "postgresql",
                 "mongodb",
+                "express",
                 "node.js",
                 "django"
+                
             ]
         },
         {

@@ -9,7 +9,7 @@ const PortfolioSection = ({projects}) => {
     const [data, setData] = useState([]);
     
     useEffect(()=>{
-      console.log(selected)
+      // console.log(selected)
       switch(selected){
         case "all" :
           setData(()=>{
@@ -22,7 +22,7 @@ const PortfolioSection = ({projects}) => {
             const res = projects.filter(project =>{
               return project.tags.includes('web');
             })
-            console.log(`web ${res}`)
+            
             return res;
           })
           break;
@@ -41,7 +41,7 @@ const PortfolioSection = ({projects}) => {
               const res = projects.filter(project =>{
                 return project.tags.includes('front-end');
               })
-              console.log(`mobile ${res}`)
+              
               return res;
             })
           break;
@@ -50,7 +50,7 @@ const PortfolioSection = ({projects}) => {
               const res = projects.filter(project =>{
                 return project.tags.includes('back-end');
               })
-              console.log(`mobile ${res}`)
+              
               return res;
             })
           break;
@@ -62,7 +62,7 @@ const PortfolioSection = ({projects}) => {
       }
    
     },[selected])
-    console.log(data)
+
 
     const filterList = [
         {

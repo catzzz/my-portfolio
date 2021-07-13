@@ -4,13 +4,18 @@ import Navbar from '../navbar/Navbar'
 import Footer from '../footer/Footer'
 import Sidebar from '../sidebar/Sidebar'
 import {useRouter} from 'next/router'
-import { useState } from 'react'
-export default function Layout({title, keywords, description, children}) {
+import { useState, useContext, useEffect } from 'react'
+import UserContext from '@/context/UserContext'
+
+
+export default function Layout({title, keywords, description, children, }) {
     const router = useRouter()
     const[sideBarIsClose, setSideBarIsClose] = useState(true)
+    
+
 
     const toggleMenu = () => {
-      console.log('toogle menu')
+    //   console.log('toogle menu')
       setSideBarIsClose(!sideBarIsClose)
     }
     return (

@@ -8,7 +8,7 @@ import uuid from 'react-uuid'
 import SkillItem from '../skillItem/SkillItem'
 
 const ProjectCard = ({title, image, tags, description,webUrl,gitUrl,skills}) => {
-    console.log(tags)
+
     return (
         <div className={styles.container}>
             <div className={styles.tags}>

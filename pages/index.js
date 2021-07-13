@@ -41,6 +41,10 @@ export async function getStaticProps(){
  
   return {
     props:{skills,projects},
+<<<<<<< HEAD
 
+=======
+    fallback:false,
+>>>>>>> 3ab719e90d2b225ceea2509529be37bc1301e6fd
   }
 }

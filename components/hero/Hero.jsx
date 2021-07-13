@@ -10,7 +10,7 @@ const HeroSection = () => {
         <section id='hero' className={styles.hero}>
             <div className={styles.hero__container}>
                 <div className={styles.hero__detail}>
-                    <h2>Hi There, I'm</h2>
+                    <h2>Hi There, I&apos;m</h2>
                     <h1>Jimmy <span>Leu</span></h1>
                     <h3>
                         Web-developer. <span>Software-Engineer</span>

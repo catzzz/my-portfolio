@@ -3,7 +3,7 @@
 import {FaGithubSquare} from 'react-icons/fa'
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from './ProjectCard.module.scss'
+import styles from './projectCard.module.scss'
 import uuid from 'react-uuid'
 import SkillItem from '../skillItem/SkillItem'
 

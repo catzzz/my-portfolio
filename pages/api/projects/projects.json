@@ -2,64 +2,35 @@
     "projects": [
         {
             "id": "1",
-            "title":"E-commerence",
-            "tags":  ["web","e-commerence"],
-            "image": "/images/project-1.png",
-            "description": ",This is an e-commerence web-site,This is an e-commerence web-site,This is an e-commerence web-site,This is an e-commerence web-site",
-            "skills": ["javascript", "react"],
-            "gitUrl":"https: //google.com",
-            "webUrl":"https: //google.com"
+            "title":"Bee's Playgrounds",
+            "tags":  ["web","front-end","back-end"],
+            "image": "/images/playgrounds_home.png",
+            "description": "A Bee's playgrounds theme for collecting playgrounds that user've been. The playgrounds will show geo location, add and edit pictures, reviews and rating of the playground.",
+            "skills": ["javascript", "react","tailwindcss","node.js","mongodb"],
+            "gitUrl":"https://github.com/catzzz/PlaygroundsApp",
+            "webUrl":"https://young-basin-40954.herokuapp.com/"
         },
         
         {
             "id": "2",
-            "title":"Photo",
-            "tags": ["web","back-end"],
-            "image": "/images/project-2.png",
-            "description": "This is an e-commerence web-site",
-            "skills": ["javascript", "react"],
-            "gitUrl":"https: //google.com",
-            "webUrl":"https: //google.com"
+            "title":"Babystrollers",
+            "tags": ["web","front-end"],
+            "image": "/images/babystrollers.png",
+            "description": "This is a websit template which was created to demostrate how to implement Sass in a web application.",
+            "skills": ["javascript", "html", "sass"],
+            "gitUrl":"https://github.com/catzzz/babyStroller",
+            "webUrl":"https://catzzz.github.io/babyStroller/"
         },
         {
             "id": "3",
-            "title":"E-commerence",
-            "tags": ["mobile","front-end"],
+            "title":"Personal Portfolio",
+            "tags": ["web","front-end"],
             "image": "/images/project-3.png",
             "description": "This is an e-commerence web-site",
-            "skills": ["javascript", "react"],
-            "gitUrl":"https: //google.com",
-            "webUrl":"https: //google.com"
-        },
-        {
-            "id": "4",
-            "title":"E-commerence",
-            "tags": ["web","e-commerence"],
-            "image": "/images/project-4.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi dignissim sed diam pharetravitae ipsum odio.",
-            "skills": ["javascript", "react"],
-            "gitUrl":"https: //google.com",
-            "webUrl":"https: //google.com"
-        },
-        {
-            "id": "5",
-            "title":"E-commerence",
-            "tags": ["mobile","e-commerence"],
-            "image": "/images/project-5.png",
-            "description": "This is an e-commerence web-site.This is an e-commerence web-site.This is an e-commerence web-site.This is an e-commerence web-site",
-            "skills": ["javascript", "react"],
-            "gitUrl":"https: //google.com",
-            "webUrl":"https: //google.com"
-        },
-        {
-            "id": "6",
-            "title":"E-commerence",
-            "tags": ["web","e-commerence"],
-            "image": "/images/project-6.png",
-            "description": "This is an e-commerence web-site",
-            "skills": ["javascript", "react"],
+            "skills": ["javascript", "react","next.js"],
             "gitUrl":"https: //google.com",
             "webUrl":"https: //google.com"
         }
+
     ]
 }

@@ -2,7 +2,7 @@ import Layout from "@/components/layout/Layout"
 import styles from '@/styles/notfound.module.scss'
 import Footer from "@/components/footer/Footer"
 import Link from 'next/link'
-
+import {FaExclamationTriangle} from 'react-icons/fa'
 const NotFound = () => {
     return (
         <Layout>

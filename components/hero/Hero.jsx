@@ -17,17 +17,17 @@ const HeroSection = () => {
                     </h3>
                     <ul>
                         <li>
-                            <Link href="/">
+                            <Link href="https://www.linkedin.com/in/jimmy-leu-3b060786/">
                                 <a ><AiOutlineLinkedin /></a>
                             </Link>
                         </li>
                         <li>
-                        <Link href="/">
+                        <Link href="https://github.com/catzzz">
                             <a><AiFillGithub /></a>
                         </Link>
                         </li>
                         <li>
-                        <Link href="mailto: abc@example.com">
+                        <Link href="#contact">
                             <a><SiGmail /></a>
                         </Link>
                         </li>

@@ -1,5 +1,5 @@
 import {FaPython,FaSwift,FaHtml5,FaReact,FaNodeJs} from 'react-icons/fa'
-import {SiJavascript,SiCss3,SiNextDotJs,SiPostgresql,SiMongodb,SiDjango,SiXcode,SiVisualstudio, SiSass,SiDocker,} from 'react-icons/si'
+import {SiJavascript,SiCss3,SiNextDotJs,SiPostgresql,SiMongodb,SiDjango,SiXcode,SiVisualstudio, SiSass,SiDocker,SiTailwindcss} from 'react-icons/si'
 import {IoMdAnalytics} from 'react-icons/io'
 
 
@@ -21,6 +21,7 @@ const SkillItem = ({name='javascript', showName=true}) => {
             {name==='react' && <FaReact /> }
             {name==='sass' && <SiSass /> }
             {name==='css' && <SiCss3 /> }
+            {name==="tailwindcss" && <SiTailwindcss />}
             {/* back end */}
             {name==='django' && <SiDjango /> }
             {name==='mongodb' && <SiMongodb /> }

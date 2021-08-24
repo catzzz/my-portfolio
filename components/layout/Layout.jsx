@@ -1,11 +1,10 @@
 import Head from 'next/head'
 
 import Navbar from '../navbar/Navbar'
-import Footer from '../footer/Footer'
+
 import Sidebar from '../sidebar/Sidebar'
 import {useRouter} from 'next/router'
-import { useState, useContext, useEffect } from 'react'
-import UserContext from '@/context/UserContext'
+import { useState } from 'react'
 
 
 export default function Layout({title, keywords, description, children, }) {

@@ -6,7 +6,7 @@ import AboutSection from '@/components/about/About';
 import { API_URL } from '@/config/index';
 import PortfolioSection from '@/components/portfolio/Portfolio';
 import Footer from '@/components/footer/Footer';
-
+import Contact from '@/components/contact/Contact';
 
 export default function HomePage({skills, projects}) {
 
@@ -17,7 +17,8 @@ export default function HomePage({skills, projects}) {
     <Layout>
       <HeroSection />
       <AboutSection skills={skills}/>
-      <PortfolioSection projects = {projects}/>     
+      <PortfolioSection projects = {projects}/>  
+      <Contact />   
       <Footer /> 
     </Layout>
 
@@ -29,6 +30,7 @@ export default function HomePage({skills, projects}) {
 
 
 export async function getStaticProps(){
+  
   const [skillsRes, projectsRes] = await Promise.all([
     fetch(`${API_URL}/api/skills`),
     fetch(`${API_URL}/api/projects`),
@@ -37,14 +39,9 @@ export async function getStaticProps(){
     skillsRes.json(), 
     projectsRes.json()
   ]);
-
+  
  
   return {
     props:{skills,projects},
-<<<<<<< HEAD
-
-=======
-    fallback:false,
->>>>>>> 3ab719e90d2b225ceea2509529be37bc1301e6fd
   }
 }

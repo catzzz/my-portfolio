@@ -19,7 +19,9 @@
                 "react",
                 "next.js",
                 "css",
+                "tailwindcss",
                 "sass"
+
             ]
         },
         {

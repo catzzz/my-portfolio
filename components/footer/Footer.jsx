@@ -10,9 +10,9 @@ const Footer = () => {
         
           
         <AiOutlineMail className={styles.icon}/>
-        <Link href="mailto: jimmyleu76@gmail.com">
+        <Link href='#contact'>
           
-          <a className={styles.email}>JimmyLeu76@gmail.com</a>
+          <a className={styles.email}>Contact</a>
         </Link>
       </div>
     </footer>

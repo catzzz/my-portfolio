@@ -22,11 +22,11 @@ A developer portfolio of Jimmy Leu. Built by using Next.js and Sass. It's a demo
 
 
 ##### Home Page Sections
+
 <p align="center">
- <img src="/screenshots/my-portfolio.jpg
- "/>
+  <img src="/screenshots/my-portfolio.jpg" />
 </p>
-</p>
+
 
 ##### Responsive 
 

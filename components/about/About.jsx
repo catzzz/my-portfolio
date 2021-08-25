@@ -9,7 +9,7 @@ const AboutSection = ({skills}) => {
             <div className={styles.container}>
                 <div className={styles.imageBox}>
                     <figure>
-                        <Image src="/images/man.png" alt="jimmy's second photo" height={250} width={250} />
+                        <Image src="/images/me2.bmp" alt="jimmy's second photo" height={250} width={250} />
                     </figure>
                 </div>
                 <div className={styles.textContainer}>

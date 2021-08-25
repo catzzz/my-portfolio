@@ -69,10 +69,7 @@ const PortfolioSection = ({projects}) => {
           id: "all",
           title: "All",
         },
-        {
-          id: "web",
-          title: "Web App",
-        },
+
         {
             id: "front-end",
             title: "Front-End",
@@ -81,10 +78,10 @@ const PortfolioSection = ({projects}) => {
             id: "back-end",
             title: "Back-End",
           },
-        {
-          id: "mobile",
-          title: "Mobile",
-        },
+        // {
+        //   id: "mobile",
+        //   title: "Mobile",
+        // },
     
       ];
     return (

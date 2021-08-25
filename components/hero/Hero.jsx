@@ -37,7 +37,7 @@ const HeroSection = () => {
 
                 <div className={styles.hero__imageDetail}>
                     <figure>
-                        <Image src='/images/man.png' alt="Jimmy's photo" height={450} width={450} />
+                        <Image src='/images/me.bmp' alt="Jimmy's photo" height={450} width={450} />
                     </figure>
                 </div>
 

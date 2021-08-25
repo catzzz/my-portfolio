@@ -39,9 +39,9 @@ const projectsData = [
     tags: ["web", "front-end"],
     image: "/images/my-portfolio.jpg",
     description: "This is an e-commerence web-site",
-    skills: ["javascript", "react", "next.js"],
-    gitUrl: "https: //google.com",
-    webUrl: "https: //google.com",
+    skills: ["javascript", "react", "next.js","sass"],
+    gitUrl: "https://github.com/catzzz/my-portfolio",
+    webUrl: "https://my-portfolio-catzzz.vercel.app/",
   },
 ];
 

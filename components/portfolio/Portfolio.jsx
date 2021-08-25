@@ -4,10 +4,13 @@ import uuid from 'react-uuid'
 import FilterBtn from '../filterBtn/FilterBtn'
 import { useState, useEffect } from 'react'
 
+
+
 const PortfolioSection = ({projects}) => {
-    const [selected , setSelected] = useState('all')
+    const [selected , setSelected] = useState('all');
     const [data, setData] = useState([]);
-    
+  
+
     useEffect(()=>{
       // console.log(selected)
       switch(selected){
